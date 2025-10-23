@@ -40,3 +40,14 @@ export type {
   RegisterFormData,
   OtpFormData,
 } from './utils/validation';
+
+// Export services
+export * from './services/notificationService';
+export * from './services/cardGenerationService';
+
+// Export components
+export * from './components/MobilePhotoEditor';
+
+// Export database
+export * from './database/schema';
+export * from './database/sync';
