@@ -35,22 +35,11 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "your-project-id"
-      }
-    },
     "plugins": [
       "expo-camera",
       "expo-image-picker",
       "expo-local-authentication",
-      "expo-notifications",
-      [
-        "@react-native-google-signin/google-signin",
-        {
-          "iosUrlScheme": "com.unicardsolutions.school"
-        }
-      ]
+      "expo-notifications"
     ]
   }
 }
